@@ -21,6 +21,7 @@ function spa_enqueue_scripts(){
     wp_register_script(
         'spa_build',
         get_template_directory_uri() . '/app/dist/build.js',
+       // 'http://localhost:8080/dist/build.js',
         [],
         false,
         true

@@ -4,7 +4,7 @@
             <img :src="post.spa_meta.thumbnail" class="img-responsive">
         </router-link>
         <h2>
-            <router-link :to="'post/' + post.slug + '/' + post.id" >
+            <router-link :to="'/post/' + post.slug + '/' + post.id" >
             {{ post.title.rendered }}
             </router-link>
         </h2>
