@@ -1,6 +1,6 @@
 <template>
     <div class="blog-post">
-        <router-link :to="'post/' + post.slug + '/' + post.id"   v-if="post.spa_meta.thumbnail">
+        <router-link :to="'/post/' + post.slug + '/' + post.id"   v-if="post.spa_meta.thumbnail">
             <img :src="post.spa_meta.thumbnail" class="img-responsive">
         </router-link>
         <h2>

@@ -43,7 +43,7 @@
         },
         methods: {
             remove_base: function(url){
-                return url.replace('http://localhost/spa','')
+                return url.replace('http://localhost/spa','');
             }
         }
 

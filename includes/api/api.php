@@ -14,7 +14,7 @@ function spa_rest_api_init() {
         'spa/v1',
         'menus',
         [
-            'methods'      =>      'GET',
+            'methods'      =>       'GET',
             'callback'     =>       'spa_menus_get_all_menus'
         ]);
 
